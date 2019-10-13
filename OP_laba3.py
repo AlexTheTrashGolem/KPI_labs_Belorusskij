@@ -9,4 +9,5 @@ while s_current>=0.000001 or s_current<=-0.000001:
     s+=s_current
     s_current=(-1)**counter*x**(2*counter)/math.factorial(2*counter)
     counter+=1
+s=(s//0.001)/1000
 print(s)
