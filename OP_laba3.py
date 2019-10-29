@@ -1,5 +1,5 @@
 import math
-x=float(input())
+x = float(input())
 if x>4 or x<0:
     raise Exception('x has to be in [0;4]')
 counter=1
